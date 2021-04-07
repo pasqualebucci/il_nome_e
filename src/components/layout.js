@@ -7,6 +7,7 @@
 
 import * as React from "react"
 import PropTypes from "prop-types"
+import { globalHistory } from "@reach/router"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
@@ -27,7 +28,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header
-        location={window.location.pathname}
+        location={globalHistory.location.pathname}
         siteTitle={data.site.siteMetadata?.title || `Title`}
       />
 
