@@ -1,28 +1,24 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import ChiSiamo from "../components/home/chisiamo"
+import CosaFacciamo from "../components/home/cosafacciamo"
+import CallToAction1 from "../components/home/calltoaction1"
+import CampagneAttive from "../components/home/campagneAttive"
+import CallToAction2 from "../components/home/calltoaction2"
+import News from "../components/home/news"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <StaticImage
-      src="../images/gatsby-astronaut.png"
-      width={300}
-      quality={95}
-      formats={["AUTO", "WEBP", "AVIF"]}
-      alt="A Gatsby astronaut"
-      style={{ marginBottom: `1.45rem` }}
-    />
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-    </p>
+    <ChiSiamo />
+    <CosaFacciamo />
+    <CallToAction1 />
+    <CampagneAttive />
+    <CallToAction2 />
+    <News />
   </Layout>
 )
 

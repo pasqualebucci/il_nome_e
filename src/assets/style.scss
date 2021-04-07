@@ -1,0 +1,54 @@
+$primary: #A86CAD;
+$warning: #FDCB66;
+$danger: #FCA481;
+$info: #6549DA;
+$link: #6CB0F2;
+$success: #E4F6F3;
+
+$column-gap: 2rem;
+
+.navbar {
+    background-color: transparent!important;
+    min-height: 80px;
+}
+
+.section .title {
+    font-family: "Anton", sans-serif;
+    font-size: 40px;
+    
+}
+
+.box {
+    padding: 2rem;
+  }
+  
+  .card, .box {
+    display: flex;
+    flex-direction: column;
+    
+    height: 100%;
+  }
+  
+  
+
+.titleDivider {
+    height: 3px;
+    width: 60px;
+    background-color: $danger;
+}
+
+.titleDividerWhite {
+    height: 3px;
+    width: 60px;
+    background-color: #ffffff;
+}
+
+.heroText {
+    font-family: "Anton", sans-serif;
+    font-size: 60px;
+}
+.heroText2 {
+    font-family: "Anton", sans-serif;
+    font-size: 38px;
+}
+@import "~bulma/bulma.sass";
