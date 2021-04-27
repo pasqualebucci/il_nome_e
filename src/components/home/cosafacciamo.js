@@ -8,7 +8,7 @@ const CosaFacciamo = () => {
         <div className="columns ">
           <div className="column content is-medium is-one-third-widescreen ">
             <div className="titleDivider" />
-            <h2 className="title">COSA FACCIAMO</h2>
+            <h2 className="title">Cosa facciamo</h2>
           </div>
           <div className="column content is-medium">
             <div className="columns">

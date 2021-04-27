@@ -3,7 +3,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const ChiSiamo = () => {
   return (
-    <section className="section has-background-success-light">
+    <section className="section">
       <div className="container">
         <div className="columns is-vcentered">
           <div className="column">
@@ -38,7 +38,7 @@ const ChiSiamo = () => {
           </div>
           <div className="column content is-medium">
             <div className="titleDivider" />
-            <h2 className="title ">CHI SIAMO</h2>
+            <h2 className="title ">Chi siamo</h2>
             <p>
               <strong className="">L'APS-ADS IL NOME E'...</strong> è una
               associazione nata a Taranto, con lo scopo di fornire lezioni

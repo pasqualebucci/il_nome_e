@@ -2,3 +2,7 @@
     font-family: "Anton";
     src: url("../fonts/Anton-Regular.ttf");
   }
+  @font-face {
+    font-family: "Playfair Display";
+    src: url("../fonts/PlayfairDisplay-SemiBold.ttf");
+  }
